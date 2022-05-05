@@ -1,0 +1,55 @@
+@import '../../variables/variables.scss';
+
+.footer-wrapper {
+    background-color: $bgColor;
+    margin-top: 180px;
+}
+
+.footer {
+    background-color: $hdrColor;
+    color: $bgColor;
+}
+
+.hdr-list {
+    color: $textColor;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font: $font;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    li {
+        list-style-type: none;
+        font-size: 12px;
+
+        a {
+            color: $textColor;
+        }
+    }
+}
+
+.ftr-add {
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.ftr-list {
+    margin: 0;
+    padding: 0;
+    
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 5px;
+    }
+
+    img {
+        width: 23px;
+    }
+}

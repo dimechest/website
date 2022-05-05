@@ -1,0 +1,46 @@
+@import '../../variables/variables.scss';
+
+.navbar {
+    width: 100%;
+    margin: 0 50px;
+}
+
+.navbar-brand {
+    color: $blueColor;
+    font-size: 45px !important;
+}
+
+.nav-item {
+    color: $blueColor;
+}
+
+.btn-icon {
+    width: 30px;
+}
+
+.btn-hdr-outline {
+    border-radius: $borderRad;
+    background-color: $bgBtnColor;
+    color: $fontColor;
+    box-shadow: $boxShadow;
+    padding: 0px;
+}
+
+li {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.nav-link { 
+    color: $blueColor;
+    margin-left: 35px
+
+}
+
+#navbarSupportedContent {
+    .btn-hdr-outline {
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../variables/variables.scss';
+
+.stack-wrapper {
+    background-color: $hdrColor;
+    margin: 100px 0;
+}
+
+.stack-hdr {
+    color: $bgBtnColor;
+    font-style: $fontStyle;
+}
+
+.card-s {
+    padding: 30px 0;
+    background-color: $color;
+    border-radius: 10px;
+    min-height: 40px;
+
+    img {
+        object-fit: contain;
+        width: 50%;
+    }
+}
+
+.row-fluid .span2 {
+    width: 18%;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .row-fluid .span2 {
+        width: 20%;
+        padding: 15px;
+        // margin-left: 5px;
+    }
+  }

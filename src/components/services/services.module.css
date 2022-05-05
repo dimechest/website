@@ -1,0 +1,49 @@
+.services_hdr,
+.services_hdr_txt {
+  color: #102A42 !important;
+}
+
+.line {
+  background-color: #F64F59 !important;
+  width: 80px;
+  min-height: 3px;
+}
+
+.services_banner {
+  background-color: #102A42 !important;
+}
+
+.services_banner_ {
+  background-color: #F64F59 !important;
+}
+
+.services_txt {
+  color: #E9EBFB !important;
+  font-size: 13px;
+}
+
+.cards {
+  padding: 20px;
+  color: #FEFEFE !important;
+  min-height: 100%;
+  font-style: "normal";
+}
+
+.cards_img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 25%;
+  margin: auto;
+}
+
+.cards_line {
+  background-color: #F64F59 !important;
+  width: 50px;
+  min-height: 3px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+/*# sourceMappingURL=services.module.css.map */

@@ -1,0 +1,78 @@
+.line {
+  background-color: #F64F59 !important;
+  width: 80px;
+  min-height: 3px;
+}
+
+.about_img {
+  width: 100%;
+  height: 300px;
+}
+
+.about_hdr_txt {
+  color: #3C4390 !important;
+  text-align: center;
+}
+
+.about_team_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about_section {
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .about_hdr_txt {
+    text-align: start;
+    margin-left: 2rem;
+  }
+  .about_team_img {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .justify_end {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  .about_img {
+    width: 100%;
+    height: 550px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .about_hdr_txt {
+    text-align: start;
+    margin-left: 6.2rem;
+  }
+  .line {
+    width: 80px;
+    min-height: 3px;
+    margin-left: 6.3rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .about_hdr_txt {
+    text-align: start;
+    margin-left: 6.2rem;
+  }
+}
+/*# sourceMappingURL=about.module.css.map */

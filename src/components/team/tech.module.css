@@ -1,0 +1,20 @@
+.line {
+  background-color: #F64F59 !important;
+  width: 100px;
+  min-height: 3px;
+}
+
+.tech_txt {
+  color: #102A42 !important;
+}
+
+.team_img_x img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90%;
+}
+
+.btn-team {
+  font-family: "Roboto";
+}
+/*# sourceMappingURL=tech.module.css.map */

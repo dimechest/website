@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  margin: 0 50px;
+}
+
+.navbar-brand {
+  color: #3C4390 !important;
+  font-size: 45px !important;
+}
+
+.nav-item {
+  color: #3C4390 !important;
+}
+
+.btn-icon {
+  width: 30px;
+}
+
+.btn-hdr-outline {
+  border-radius: 50px !important;
+  background-color: #F64F59 !important;
+  color: #FBFFFE !important;
+  -webkit-box-shadow: 0px 20px 50px rgba(246, 79, 89, 0.2) !important;
+          box-shadow: 0px 20px 50px rgba(246, 79, 89, 0.2) !important;
+  padding: 0px;
+}
+
+li {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 180%;
+}
+
+.nav-link {
+  color: #3C4390 !important;
+  margin-left: 35px;
+}
+
+#navbarSupportedContent .btn-hdr-outline {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=navbar.css.map */

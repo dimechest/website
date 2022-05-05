@@ -1,0 +1,21 @@
+.line {
+  background-color: #F64F59 !important;
+  width: 100px;
+  min-height: 3px;
+}
+
+.project_img {
+  width: 100%;
+  height: 500px;
+}
+
+.project_hdr {
+  color: #3C4390 !important;
+}
+
+.justify-end {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: end !important;
+}
+/*# sourceMappingURL=projects.module.css.map */

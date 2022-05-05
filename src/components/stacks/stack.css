@@ -1,0 +1,40 @@
+.stack-wrapper {
+  background-color: #102A42 !important;
+  margin: 100px 0;
+}
+
+.stack-hdr {
+  color: #F64F59 !important;
+  font-style: "normal";
+}
+
+.card-s {
+  padding: 30px 0;
+  background-color: #FEFEFE !important;
+  border-radius: 10px;
+  min-height: 40px;
+}
+
+.card-s img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50%;
+}
+
+.row-fluid .span2 {
+  width: 18%;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .row-fluid .span2 {
+    width: 20%;
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=stack.css.map */

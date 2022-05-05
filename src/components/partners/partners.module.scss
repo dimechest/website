@@ -1,0 +1,7 @@
+@import '../../variables/variables.scss';
+
+.line {
+    background-color: $bgBtnColor;
+    width: 100px;
+    min-height: 3px;
+}

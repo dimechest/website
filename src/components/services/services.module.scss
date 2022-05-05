@@ -1,0 +1,55 @@
+@import '../../variables/variables.scss';
+
+.services_hdr,
+.services_hdr_txt {
+    color: $hdrColor;
+}
+
+.line {
+    background-color: $bgBtnColor;
+    width: 80px;
+    min-height: 3px;
+    // margin-left: 6.3rem;
+}
+
+.services_banner {
+    background-color: $hdrColor;
+}
+
+.services_banner_ {
+    background-color: $bgBtnColor;
+}
+
+.services_txt {
+    color: $bgColor;
+    font-size: 13px;
+}
+
+.cards {
+    padding: 20px;
+    color: $color;
+    min-height: 100%;
+    font-style: $fontStyle;
+}
+
+.cards_img {
+    object-fit: contain;
+    width: 25%;
+    margin: auto;
+}
+
+.cards_line {
+    background-color: $bgBtnColor;
+    width: 50px;
+    min-height: 3px;
+    margin: auto;
+}
+
+
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+    
+}

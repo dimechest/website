@@ -1,0 +1,22 @@
+@import '../../variables//variables.scss';
+
+.line {
+    background-color: $bgBtnColor;
+    width: 100px;
+    min-height: 3px;
+}
+
+.tech_txt {
+    color: $hdrColor;
+}
+
+.team_img_x {
+    img {
+        object-fit: contain;
+        width: 90%;
+    }
+}
+
+.btn-team {
+    font-family: $font;
+}
